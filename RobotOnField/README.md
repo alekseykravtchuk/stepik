@@ -33,6 +33,7 @@ public class Robot {
 }
 ***
 public enum Direction {
+
     UP,
     DOWN,
     LEFT,
@@ -40,5 +41,6 @@ public enum Direction {
 }
 ***
 public static void moveRobot(Robot robot, int toX, int toY) {
+
     robot.stepForward(); // your implementation here
 }
